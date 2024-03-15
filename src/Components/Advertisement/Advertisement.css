@@ -1,0 +1,139 @@
+.advertisement-container{
+    padding: 76px 105px 0;
+}
+
+.advertisement-sub-container{
+    display: flex;
+    gap: 35px;
+}
+
+.hoverImg{
+    position: relative;
+}
+
+.hoverImg-content{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 50;
+}
+
+.hoverImg-content h1, .center-img-content h1, .bottom-img1-content h1, .right-img-content h1{
+    font-size: 35px;
+    font-weight: 900;
+    color: #FFB11B;
+    line-height: 40px;
+}
+
+.hoverImg-content p, .center-img-content p, .bottom-img1-content p, .right-img-content p{
+    font-size: 15px;
+    color: #B18D6B;
+    text-align: center;
+}
+
+.cont-img img{
+    width: 295px;
+    height: 440px;
+    text-decoration: 1000ms;
+    cursor: pointer;
+}
+
+.cont-img:hover .hoverImg{
+    background-color: black;
+}
+
+.cont-img:hover img{
+    opacity: .5;
+}
+
+/* Center to img */
+
+.center-img-content{
+    position: absolute;
+    text-align: center;
+    top: 50px;
+    right: 50px;
+    z-index: 10;    
+}
+
+.center-img-content h1, .right-img-content h1{
+    color: white;
+}
+
+.center-img-content p, .right-img-content p{
+    color: #1328ec;
+}
+
+.center-top-img{
+    width: 592px;
+    height: 205px;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    overflow: hidden;
+}
+
+.hover02 .center-top-img img{
+    margin-top: -40px;
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+
+.hover02 .center-top-img:hover img{
+    margin-top: 0;
+}
+
+/* Bottom Two Img */
+
+.bottom-img1-content{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+}
+
+.bottom-img1-content h1{
+    color: #896541;
+}
+
+.bottom-img1-content p{
+    color: #B18D6B;
+}
+
+.column div{
+    position: relative;
+    float: left;
+    padding: 0;
+}
+
+.bottomTwoImg{
+    width: 281px;
+    height: 215px;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    overflow: hidden;
+}
+
+.hover03 .bottomTwoImg img{
+    margin-top: 20px;
+    margin-left: 50px;
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+
+.hover03 .bottomTwoImg:hover img{
+    margin-left: 0;
+}
+
+.right-img-content{
+    position: absolute;
+    top: 10px;
+    left: 10%;
+    z-index: 50;
+    text-align: center;
+}

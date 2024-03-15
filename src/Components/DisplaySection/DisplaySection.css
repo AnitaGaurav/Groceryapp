@@ -1,0 +1,119 @@
+.display-first-section{
+    position: relative;
+    background-color: #DEE9CF;
+    z-index: -20;
+    overflow: hidden;
+}
+
+.content-sec-one{
+    position: absolute;
+    right: 30px;
+    top: 110px;
+}
+
+.content-sec-one h2{
+    font-size: 38px;
+    color:#FF0101;
+}
+
+.content-sec-one h1{
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 65px;
+}
+
+.content-sec-one h3{
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 70px;
+    text-align: right;
+}
+
+.shop-now-btn{
+    font-weight: 500;
+    color: #41503F;
+    display: flex;
+    align-items: center;
+}
+
+.rotate{
+    animation: rotation 2s;
+}
+
+@keyframes rotation{
+    from{
+        transform: translate(-300px, 300px) rotate(0deg) scale(0);
+    }
+    to{
+        transform: translateX(0px) rotate(360deg) scale(1);
+    }
+}
+
+.content-section-two{
+    position: absolute;
+    left: 30px;
+    top: 40px;
+    z-index: 10;
+}
+
+.content-section-two h1{
+    font-size: 82px;
+    font-weight: 900;
+    line-height: 70px;
+    color: #605E5E;
+}
+
+.content-section-two h2{
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 30px;
+    color: #674F05;
+}
+
+.content-section-three{
+    position: absolute;
+    bottom: 40px;
+    z-index: 10;
+}
+
+.content-section-three h1{
+    font-size: 82px;
+    font-weight: 900;
+    line-height: 70px;
+    color: #b3050290;
+}
+
+.content-section-three h2{
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 30px;
+    color: #7c9033;
+}
+
+.column div{
+    position: relative;
+    float: left;
+    padding: 0;
+}
+
+figure{
+    width: 411px;
+    height: 280px;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.hover05 figure img{
+    margin-top: 50px;
+    margin-left: 100px;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-transition: .6s ease-in-out;
+    transition: .6s ease-in-out;
+}
+
+.hover05 figure:hover img{
+    margin-left: 0;
+}

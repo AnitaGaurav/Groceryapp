@@ -1,0 +1,7 @@
+.brnadImg{
+    transition-duration: .4s;
+}
+
+.brnadImg:hover{
+    transform: scale(1.2);
+}
